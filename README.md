@@ -9,23 +9,21 @@ Overview
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 The I2S MEMS digital microphone module is based on a ZTS6631 sound sensor with a sound-sensitive condenser electret microphone built in. The sound waves cause the electret film in the microphone to vibrate, causing a change in capacitance, resulting in a small voltage that changes accordingly. This voltage is then converted to a voltage of 0-3.3V, which is received by the data collector through A/D conversion via the I2S protocol and master control communication. This module not only features a compact size, but also offers high sensitivity and low noise characteristics, making it ideal for various applications requiring high-quality audio input. Combined with the powerful processing power of ESP32 and other main control devices, users can easily implement functions such as speech recognition, recording, and AI learning.
-Schematic
 
-----------------------------------------------------------------------------------------------------------------------------------------------------
+## Schematic
 
 ![loading-ag-75](./picture/schematic_diagram.png)
 
 [The schematic can be viewed here](./ZTS663_I2S_MEMS_MIC_SCH.pdf)
-Chip Specifications
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[Click here to view the I2S microphone cad dimensions](./ZTS663_I2S_MEMS_MIC_cad_dimension.pdf)
+
+## Chip specifications
 
 [Click here to view the I2S microphone datasheet](./ZTS6631_datasheet.pdf)
-Module parameters
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Module parameters
 
-* Working voltage: module is 3.3~5V, chip working voltage (1.6V-3.6V)
 * Microphone packaging process: MEMS
 * Directionality: omnidirectional top inlet
 * Data interface: I2S
